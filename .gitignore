@@ -33,6 +33,33 @@
 *.out
 *.app
 *.i*86
+
+
+#include <stdio.h>
+int main () {
+	
+	int ucret;
+	printf("Ucret Giriniz: ");
+	
+	scanf("%d",&ucret);
+	
+
+	int kdv;
+	kdv=18;
+	
+	
+	
+	
+	int vergitutari;
+	vergitutari= ucret*18/100;
+	printf("Vergi Tutari (TL) :");
+	printf("%d",vergitutari);
+	
+
+	
+	
+}
+
 *.x86_64
 *.hex
 
